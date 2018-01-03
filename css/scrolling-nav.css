@@ -5,15 +5,42 @@
  */
 
 header {
-  padding: 154px 0 100px;
-}
-
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
+  padding: 65px 0 25px;
+  border-bottom: 2px solid grey;
 }
 
 section {
-  padding: 150px 0;
+  padding: 20px 0 0 0;
+}
+
+div#profile-picture {
+	display: relative;
+	display:inline-block;
+}
+div#profile-picture img{
+		width: 146px;
+		height: 167px;
+		border: 1px solid white;
+		margin-top: -125px;
+		margin-right: 25px;
+
+}
+@media (max-width: 550px) {
+	div#profile-picture img{
+			margin-top: 0;
+			margin-right: 0;
+
+	}
+}
+
+#profile-info {
+	display:inline-block;
+	
+}
+
+div#project-icons img {
+		width: 195px;
+		height: 148px;
+		margin: 5px;
+		border-bottom: 5px solid #007bff;
 }
